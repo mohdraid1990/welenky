@@ -1,0 +1,1305 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/nexa-bold");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nexa" و "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 153px;
+  box-shadow: 0px 0px 17px 0px rgba(60, 63, 66, 0.1019607843);
+}
+
+header .container nav {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header .container nav .right .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+header .container nav .right .top li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+}
+
+header .container nav .right .top li a {
+  color: #21211f;
+}
+
+header .container nav .right .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 13px;
+  padding-right: 50px;
+}
+
+header .container nav .right .bottom li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+}
+
+header .container nav .right .bottom li a {
+  color: #21211f;
+}
+
+header .container nav .logo {
+  width: 199px;
+  height: 73px;
+}
+
+header .container nav .left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .container nav .left .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 53px;
+  height: 18px;
+}
+
+header .container nav .left .login li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+}
+
+header .container nav .left .login li a {
+  color: #21211f;
+}
+
+header .container nav .left .icons {
+  width: 104px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 16px;
+  padding-right: 42px;
+}
+
+header .container .line {
+  width: 100%;
+  height: 1px;
+  background-color: #0b1547;
+  margin-top: 10px;
+}
+
+header .container .nav-down {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header .container .nav-down .menu,
+header .container .nav-down .health,
+header .container .nav-down .books,
+header .container .nav-down .buti,
+header .container .nav-down .home {
+  width: 98px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+header .container .nav-down .menu li,
+header .container .nav-down .health li,
+header .container .nav-down .books li,
+header .container .nav-down .buti li,
+header .container .nav-down .home li {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+header .container .nav-down .menu li a,
+header .container .nav-down .health li a,
+header .container .nav-down .books li a,
+header .container .nav-down .buti li a,
+header .container .nav-down .home li a {
+  color: #21211f;
+}
+
+header .container .nav-down .health li a,
+header .container .nav-down .books li a,
+header .container .nav-down .buti li a,
+header .container .nav-down .home li a {
+  color: #7b809a;
+}
+
+main {
+  margin-top: 20px;
+}
+
+main .top-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 811px;
+}
+
+main .top-main ul {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+main .top-main li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #afafaf;
+}
+
+main .top-main li.der {
+  color: #21211f;
+}
+
+main .top-main li .fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+main .btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+main .btn button {
+  width: 107px;
+  height: 36px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b1547;
+  color: white;
+  cursor: pointer;
+  gap: 4px;
+}
+
+main .btn h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  white-space: nowrap;
+  color: #21211f;
+}
+
+main .line-main {
+  width: 100%;
+  height: 1px;
+  background-color: #f0f3ff;
+  margin-top: 25px;
+}
+
+main .content-main {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  gap: 24px;
+}
+
+main .left-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 805px;
+  height: 620px;
+}
+
+main .col-main {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+main .small-img {
+  cursor: pointer;
+}
+
+main .image-main {
+  width: 100%;
+  height: 100%;
+}
+
+main .image-main img {
+  transition: opacity 0.5s ease;
+}
+
+main .fade-out {
+  opacity: 0;
+}
+
+main .fade-in {
+  opacity: 1;
+}
+
+main .right-main {
+  margin-left: 50px;
+  width: 731px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+main .right-main .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .right-main .raiting {
+  display: flex;
+  width: 426px;
+  align-items: center;
+  height: 22px;
+  gap: 8px;
+}
+
+main .right-main .raiting .num {
+  width: 31px;
+  height: 16px;
+  color: #ffffff;
+  background-color: #0b1547;
+  font-family: Nexa Bold;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+}
+
+main .right-main .raiting .act {
+  width: 94px;
+  height: 16px;
+  color: #ffffff;
+  background-color: #0b1547;
+  font-family: Nexa Bold;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+}
+
+main .right-main .raiting .reviews {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #21211f;
+}
+
+main .right-main .cod p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #7b809a;
+}
+
+main .right-main .desc-main {
+  padding-top: 20px;
+}
+
+main .right-main .desc-main h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+main .right-main .desc-main p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  width: 731px;
+}
+
+main .right-main .desc-main a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #aa767c;
+  text-decoration: underline;
+  text-decoration-color: #aa767c;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+main .right-main .price {
+  display: flex;
+  width: 256px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.price {
+  display: flex;
+  width: 256px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.price p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.price a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: #7b809a;
+  text-decoration: line-through;
+}
+.dec-price {
+  padding-top: 10px;
+}
+.dec-price p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+
+  color: #7b809a;
+}
+.line-right {
+  width: 100%;
+  height: 1px;
+  background-color: #ebedf1;
+  margin-top: 20px;
+}
+
+.btn-right {
+  margin-top: 30px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn-right button {
+  width: 353px;
+  height: 48px;
+
+  background-color: #0b1547;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s all ease-in;
+  cursor: pointer;
+}
+.btn-right button:first-of-type {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-right button:hover {
+  background-color: #aa767c;
+}
+
+.foot-main {
+  margin-top: 40px;
+}
+.btn-foot-main {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+.btn-foot-main button:first-of-type,
+.btn-foot-main button:nth-of-type(2),
+.btn-foot-main button:nth-of-type(3),
+.btn-foot-main button:nth-of-type(4) {
+  border: 1px solid #0b1547;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #0b1547;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+  width: 123px;
+  height: 36px;
+}
+.btn-foot-main button:nth-of-type(2) {
+  width: 98px;
+}
+.btn-foot-main button:nth-of-type(3) {
+  width: 200px;
+  height: 36px;
+}
+.btn-foot-main button:nth-of-type(4) {
+  width: 181px;
+  height: 36px;
+}
+.btn-foot-main button:hover {
+  background-color: #0b1547;
+  color: #ffffff;
+}
+
+.desc-foot-main {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 1264px;
+}
+
+.desc-foot-main h5 {
+  color: #21211f;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.desc-foot-main p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21211f;
+  padding-top: 10px;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.top-slider {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.top-slider button {
+  width: 155px;
+  height: 48px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+  border: none;
+
+  cursor: pointer;
+
+  background-color: #0b1547;
+  color: #ffffff;
+}
+
+.slider .cards {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  padding-top: 20px;
+}
+
+.card {
+  max-width: 376px;
+  height: 436px;
+  position: relative;
+}
+.card::before {
+  content: url(images/favorite\\(1\).svg);
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+}
+.card .text-card {
+  padding-top: 10px;
+  width: 100%;
+  height: 40px;
+}
+.card .text-card p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.card .detal-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.card .detal-card .shoping {
+  background-color: #0b1547;
+  width: 40px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.price-card {
+  display: flex;
+  width: 328px;
+  height: 32px;
+  align-items: center;
+  gap: 4px;
+}
+.price-card h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #aa767c;
+}
+.price-card a {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+
+  color: #aa767c;
+}
+
+.btn-card {
+  position: absolute;
+  top: 71%;
+  width: 180px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-card button:nth-child(1),
+.btn-card button:nth-child(2),
+.btn-card button:nth-child(3) {
+  width: 39px;
+  height: 16px;
+  background-color: #0b1547;
+  font-family: Nexa Bold;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.btn-card button:nth-child(2) {
+  width: 61px;
+}
+.btn-card button:nth-child(3) {
+  width: 94px;
+}
+
+.form {
+  width: 100%;
+  height: 184px;
+  background-color: #0b1547;
+  margin-top: 50px;
+}
+
+.form .text-form {
+  width: 686px;
+  padding-top: 34px;
+}
+
+.form .text-form h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.text-form p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.content-form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp {
+  width: 812px;
+  padding-top: 50px;
+}
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.sub input {
+  width: 625px;
+  height: 44px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d8dcef;
+}
+.sub input::placeholder {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px;
+  color: #a9a9a9;
+}
+
+.sub button {
+  width: 171px;
+  height: 48px;
+  background-color: #f4f4f433;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+.cheack {
+  width: 784px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.cheack p {
+  padding-top: 15px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffff;
+}
+
+.cheack a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.row .col {
+  max-width: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.row .col h1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #312f3b;
+}
+.row .col p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7b809a;
+}
+
+.line-footer {
+  width: 100%;
+  height: 1px;
+  background-color: #adacb1;
+  margin-top: 30px;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.contact .icons {
+  display: flex;
+  gap: 24px;
+}
+.icons .img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #aa767c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .email p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #21211f;
+}
+
+.contact .call p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #21211f;
+}
+
+.contact .massage {
+  width: 157px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.contact .massage p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.visa {
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.visa .right-visa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.visa .left-visa {
+  display: flex;
+  gap: 32px;
+}
+
+.visa a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #aa767c;
+}
+@media screen and (min-width: 1250px) and (max-width: 1500px) {
+  .container {
+    max-width: 1300px;
+  }
+  main .btn h1 {
+    font-size: 30px;
+  }
+  main .left-content {
+    width: 650px;
+  }
+  main .right-main {
+    margin-left: 62px;
+    width: 634px;
+  }
+  main .right-main .raiting {
+    width: 413px;
+  }
+  main .right-main .cod p {
+    font-size: 13px;
+    padding-right: 10px;
+  }
+  main .right-main .desc-main p {
+    width: 634px;
+  }
+  .btn-right {
+    justify-content: center;
+  }
+  .form .text-form h2 {
+    font-size: 29px;
+  }
+  .row .col {
+    padding-right: 0 !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1025px) {
+  .container {
+    max-width: 800px;
+  }
+  main .btn h1 {
+    font-size: 20px;
+  }
+  .btn-foot-main {
+    padding-top: 4px;
+    padding-left: 47px;
+  }
+  main .content-main {
+    flex-direction: column;
+  }
+  .desc-foot-main {
+    width: 850px;
+  }
+  .inp {
+    width: 400px;
+  }
+  .form .text-form h2 {
+    font-size: 20px;
+  }
+  .cheack {
+    width: 450px;
+    gap: 13px;
+  }
+  .cheack p {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .cheack a {
+    font-size: 12px;
+  }
+  .sub input {
+    width: 450px;
+  }
+  .sub button {
+    font-size: 12px;
+  }
+  .form .text-form {
+    width: 450px;
+    padding-top: 0px !important;
+  }
+  .row .col {
+    padding-right: 0 !important;
+  }
+  .contact .icons {
+    gap: 10px;
+  }
+  .contact .email p {
+    font-size: 12px;
+  }
+  .contact .call p {
+    font-size: 12px;
+  }
+  .contact .massage p {
+    font-size: 12px;
+  }
+  .visa .right-visa {
+    gap: 16px;
+  }
+  .visa .left-visa {
+    gap: 14px;
+  }
+  .visa a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .container {
+    max-width: 700px;
+  }
+
+  main .top-main li {
+    font-size: 14px;
+  }
+  main .btn h1 {
+    font-size: 17px;
+  }
+  main .content-main {
+    flex-direction: column;
+  }
+  main .left-content {
+    width: 660px;
+  }
+  main .right-main {
+    margin-left: 0px !important;
+    width: 650px;
+  }
+  .desc-foot-main {
+    width: 650px;
+  }
+  main .top-main {
+    width: 716px;
+  }
+  .form .text-form h2 {
+    font-size: 14px;
+  }
+  .inp {
+    width: 450px;
+    padding-top: 30px;
+  }
+  .cheack {
+    width: 450px;
+  }
+  .sub input {
+    width: 450px;
+  }
+  .sub button {
+    font-size: 15px;
+  }
+  .form .text-form {
+    width: 450px;
+    padding-top: 8px;
+  }
+  .text-form p {
+    font-size: 11px;
+  }
+  .cheack p {
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .cheack a {
+    font-size: 10px;
+  }
+  .row .col {
+    padding-right: 0 !important;
+  }
+  .contact .icons {
+    gap: 6px;
+  }
+  .icons .img {
+    width: 30px;
+    height: 30px;
+  }
+  .contact .email p {
+    font-size: 11px;
+  }
+  .contact .call p {
+    font-size: 11px;
+  }
+  .contact .massage p {
+    font-size: 11px;
+  }
+  .visa .right-visa {
+    gap: 10px;
+  }
+  .visa a {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .container {
+    max-width: 350px;
+  }
+
+  header {
+    height: 380px;
+  }
+
+  header nav {
+    padding-left: 80px;
+    gap: 10px;
+  }
+
+  header nav .bottom {
+    padding-right: 0 !important;
+  }
+  header .container nav .left {
+    align-items: flex-start;
+  }
+  header nav .login {
+    margin-left: 80px;
+  }
+
+  header nav .icons {
+    padding-top: 30px !important;
+    margin-left: 60px;
+  }
+  header .container .line {
+    margin-top: 20px;
+  }
+
+  .nav-down {
+    gap: 30px;
+    justify-content: space-around !important;
+  }
+  main .top-main {
+    width: 350px;
+  }
+  main .top-main ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .top-main img {
+    display: none;
+  }
+  main .top-main li {
+    font-size: 16px;
+  }
+  main .btn {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  main .btn button {
+    width: 107px;
+    height: 45px;
+  }
+  main .image-main {
+    display: none;
+  }
+  main .btn h1 {
+    font-size: 16px;
+    line-height: 25px;
+    white-space: pre-wrap;
+  }
+  main .content-main {
+    flex-direction: column;
+  }
+  main .left-content {
+    width: 350px;
+    height: 400px;
+  }
+  main .right-main .raiting {
+    width: 353px;
+    align-items: center;
+
+    gap: 4px;
+  }
+  .raiting img:last-of-type {
+    display: none;
+  }
+  main .right-main .header-right {
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 350px;
+  }
+  main .col-main {
+    display: block;
+  }
+  main .right-main .desc-main {
+    width: 350px;
+  }
+  main .right-main .desc-main p {
+    width: 100%;
+  }
+  .line-right {
+    width: 350px;
+  }
+  .btn-foot-main {
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .right-main {
+    margin-left: 0px !important;
+    width: 350px;
+  }
+  .desc-foot-main {
+    width: 350px;
+  }
+  .slider {
+    margin-left: -7px;
+  }
+  .card .text-card p {
+    font-size: 12px;
+  }
+
+  .top-slider {
+    width: 350px;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    max-width: 350px;
+  }
+  .form {
+    height: 400px;
+  }
+  .content-form {
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .form .text-form h2 {
+    font-size: 14px;
+  }
+  .inp {
+    width: 350px;
+    padding-top: 30px;
+  }
+  .cheack {
+    width: 450px;
+  }
+  .sub input {
+    width: 300px;
+  }
+  .sub button {
+    font-size: 15px;
+  }
+  .form .text-form {
+    width: 350px;
+    padding-top: 8px;
+  }
+  .sub {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+  }
+  .text-form p {
+    font-size: 11px;
+  }
+  .cheack p {
+    padding-top: 7px;
+    font-size: 10px;
+  }
+  .cheack {
+    width: 350px;
+  }
+  .cheack a {
+    font-size: 10px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .row .col {
+    padding-right: 0 !important;
+  }
+  .contact {
+    width: 100%;
+    height: 150px;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .contact .icons {
+    gap: 6px;
+  }
+  .icons .img {
+    width: 30px;
+    height: 30px;
+  }
+  .contact .email p {
+    font-size: 11px;
+  }
+  .contact .call p {
+    font-size: 11px;
+  }
+  .contact .massage p {
+    font-size: 11px;
+  }
+  .visa {
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .visa .right-visa {
+    gap: 10px;
+  }
+  .visa a {
+    font-size: 11px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
