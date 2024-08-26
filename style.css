@@ -1082,7 +1082,7 @@ main .right-main .price {
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 580px) {
   .container {
     max-width: 350px;
   }
